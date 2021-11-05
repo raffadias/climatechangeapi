@@ -131,5 +131,5 @@ app.get('/news/:newspaperId', (req, res) => {
 })
 
 // Ouve qualquer mudança que ocorre na porta 8000
-app.listen(PORT, () => console.log(`server running on PORT:${PORT}`))
+app.listen(PORT, () => console.log(`servidor rodando na porta:${PORT}`))
 
